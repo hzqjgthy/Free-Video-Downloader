@@ -1,0 +1,15 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# python / node
+**/__pycache__/
+*.py[cod]
+**/node_modules/
+dist/
+dist-ssr/
+
+# local data / junk
+**/*.db
+.DS_Store
